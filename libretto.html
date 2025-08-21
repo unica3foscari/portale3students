@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libretto - Università Ca' Foscari Venezia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-text">Università Ca' Foscari Venezia</div>
+            </div>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="nav-menu">
+                <li><a href="libretto.html" class="active">Libretto</a></li>
+                <li><a href="piano-studi.html">Piano di Studi</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="libretto.html">Libretto</a></li>
+                <li class="breadcrumb-item active">Home</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Libretto di: LORENZO SEGALE - [MAT. 906023]</h2>
+                </div>
+                <div class="card-body">
+                    <p>Questa pagina visualizza le informazioni relative alle attività didattiche del libretto dello studente. Per le attività didattiche non ancora superate e frequentate è attivo il link sull'icona della sezione 'Appelli' che permette di accedere alla lista degli appelli definiti dalla segreteria didattica.</p>
+                    <p>Gli studenti iscritti a corsi di laurea quadriennali e quinquennali (vecchio ordinamento) sono pregati di verificare, ai fini della correttezza della media, che nel libretto telematico gli esami annuali siano caricati con peso 1 e gli esami semestrali siano caricati con peso 0,50. In caso di incongruenze si prega di segnalare a carriere.studenti@unive.it.</p>
+                </div>
+            </div>
+
+            <div class="search-filter">
+                <div class="search-box">
+                    <input type="text" id="search" placeholder="Cerca esame...">
+                    <button id="search-button">&#128269;</button>
+                </div>
+                <div class="filter-dropdown">
+                    <select id="filter">
+                        <option value="all">Tutti gli esami</option>
+                        <option value="passed">Superati</option>
+                        <option value="failed">Non superati</option>
+                        <option value="planned">Pianificati</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Attività Didattiche</th>
+                            <th>Anno</th>
+                            <th>Peso in crediti</th>
+                            <th>Stato</th>
+                            <th>AA Freq.</th>
+                            <th>Voto - Data Esame</th>
+                            <th>Ric.</th>
+                            <th>Prove</th>
+                            <th>Appelli</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0562" class="exam-name"><span class="exam-code">CT0562</span> - ALGEBRA LINEARE</a></td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>30 - 15/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0560" class="exam-name"><span class="exam-code">CT0560</span> - ANALISI MATEMATICA I</a></td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>28 - 10/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0561" class="exam-name"><span class="exam-code">CT0561</span> - ANALISI MATEMATICA II</a></td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>28 - 20/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0564" class="exam-name"><span class="exam-code">CT0564</span> - FISICA I</a></td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>30 - 25/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0568" class="exam-name"><span class="exam-code">CT0568</span> - FONDAMENTI DI CHIMICA</a></td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>28 - 05/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0569" class="exam-name"><span class="exam-code">CT0569</span> - INFORMATICA I</a></td>
+                            <td>1</td>
+                            <td>12</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>29 - 12/01/2025</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CLA-B1" class="exam-name"><span class="exam-code">CLA-B1</span> - LINGUA INGLESE B1</a></td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>ES - 22/08/2024</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CLA-B2" class="exam-name"><span class="exam-code">CLA-B2</span> - LINGUA INGLESE B2</a></td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>ES - 22/08/2024</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0000" class="exam-name"><span class="exam-code">CT0000</span> - LOGICA-MATEMATICA (OBBLIGO FORMATIVO AGGIUNTIVO)</a></td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>ES - 22/08/2024</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=SIC001" class="exam-name"><span class="exam-code">SIC001</span> - SICUREZZA E SALUTE NELLE ATTIVITÀ DIDATTICHE E DI RICERCA</a></td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td class="status-cell"><span class="status-indicator status-success"></span> Superato</td>
+                            <td>2024/2025</td>
+                            <td>IDO - 15/12/2024</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><a href="dettaglio-esame.html?code=CT0563" class="exam-name"><span class="exam-code">CT0563</span> - STATISTICA</a></td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td class="status-cell"><span class="status-indicator status-danger"></span> Non Superato</td>
+                            <td>2024/2025</td>
+                            <td>- - -</td>
+                            <td>R/A</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <div class="logo-text">Università Ca' Foscari Venezia</div>
+            </div>
+            <div class="footer-text">
+                &copy; 2025 Università Ca' Foscari Venezia - Tutti i diritti riservati
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

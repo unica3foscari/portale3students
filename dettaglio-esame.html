@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dettaglio Esame - Università Ca' Foscari Venezia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-text">Università Ca' Foscari Venezia</div>
+            </div>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="nav-menu">
+                <li><a href="libretto.html">Libretto</a></li>
+                <li><a href="piano-studi.html">Piano di Studi</a></li>
+                <li><a href="#" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="libretto.html">Libretto</a></li>
+                <li class="breadcrumb-item active">Attività Didattica</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Dettaglio della Carriera di: LORENZO SEGALE - [MAT. 906023]</h2>
+                </div>
+                <div class="card-body">
+                    <p>Nella sezione sono riportate le informazioni della Attività Didattica inserita nel libretto dello studente nonché le informazioni associate ai settori scientifico disciplinari con le relative frequenze effettuate.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3 id="exam-title">Attività Didattica: [NOME ESAME] [CODICE]</h3>
+                </div>
+                <div class="card-body">
+                    <p>Offerta nel corso di studio: INGEGNERIA FISICA (CTB) Classe di Laurea: L-8 - Classe delle lauree in Ingegneria dell'informazione</p>
+                </div>
+            </div>
+
+            <div class="accordion active">
+                <div class="accordion-header">
+                    <h3>Attività Didattica</h3>
+                </div>
+                <div class="accordion-body">
+                    <div class="card-body">
+                        <table class="detail-table">
+                            <tr>
+                                <th>Anno di Corso</th>
+                                <td id="exam-year">1</td>
+                            </tr>
+                            <tr>
+                                <th>Stato</th>
+                                <td id="exam-status">Pianificata (Frequentata)</td>
+                            </tr>
+                            <tr>
+                                <th>Tipo Esame</th>
+                                <td id="exam-type">Scritto</td>
+                            </tr>
+                            <tr>
+                                <th>Tipo Valutazione</th>
+                                <td id="exam-evaluation">Voto Finale</td>
+                            </tr>
+                            <tr>
+                                <th>Note</th>
+                                <td id="exam-note">Attività didattica collegata al piano</td>
+                            </tr>
+                            <tr>
+                                <th>Frequenza</th>
+                                <td id="exam-frequency">Frequentato</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>Unità didattiche</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Unità Didattica</th>
+                                    <th>Tipo Attività</th>
+                                    <th>Tipo Formaz.</th>
+                                    <th>Settore</th>
+                                    <th>CFU</th>
+                                    <th>Durata</th>
+                                </tr>
+                            </thead>
+                            <tbody id="unit-table-body">
+                                <!-- Contenuto dinamico caricato da JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <a href="libretto.html" class="btn">← Torna al Libretto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <div class="logo-text">Università Ca' Foscari Venezia</div>
+            </div>
+            <div class="footer-text">
+                &copy; 2025 Università Ca' Foscari Venezia - Tutti i diritti riservati
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
